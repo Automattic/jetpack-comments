@@ -10,4 +10,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add the comment form: a textarea, guest name and email fields, and reply threading, rendered on the site itself. Off unless the jetpack_comments_new_hotness filter returns true.
 - Initial version.

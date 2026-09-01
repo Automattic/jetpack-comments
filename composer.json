@@ -5,8 +5,8 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.4",
-		"automattic/jetpack-assets": "^5.0.0",
-		"automattic/jetpack-image-cdn": "^0.8.0-alpha"
+		"automattic/jetpack-assets": "^5.0.1",
+		"automattic/jetpack-image-cdn": "^0.8.0"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."

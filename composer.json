@@ -6,7 +6,8 @@
 	"require": {
 		"php": ">=7.4",
 		"automattic/jetpack-assets": "^5.0.4-alpha",
-		"automattic/jetpack-image-cdn": "^0.8.0"
+		"automattic/jetpack-image-cdn": "^0.8.0",
+		"automattic/jetpack-connection": "^9.3.0-alpha"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -19,18 +20,18 @@
 	"scripts": {
 		"build-development": "pnpm run build",
 		"build-production": "pnpm run build-production",
+		"typecheck": "pnpm run typecheck",
 		"watch": [
 			"Composer\\Config::disableProcessTimeout",
 			"pnpm run watch"
-		],
-		"typecheck": "pnpm run typecheck"
+		]
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.1.x-dev"
+			"dev-trunk": "0.2.x-dev"
 		},
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-comments/compare/v${old}...v${new}"

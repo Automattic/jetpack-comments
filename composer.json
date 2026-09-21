@@ -7,7 +7,7 @@
 		"php": ">=7.4",
 		"automattic/jetpack-assets": "^5.0.5",
 		"automattic/jetpack-image-cdn": "^0.8.0",
-		"automattic/jetpack-connection": "^9.5.0-alpha"
+		"automattic/jetpack-connection": "^9.5.0"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."

@@ -7,7 +7,8 @@
 		"php": ">=7.4",
 		"automattic/jetpack-assets": "^5.0.9",
 		"automattic/jetpack-image-cdn": "^0.8.1",
-		"automattic/jetpack-connection": "^9.9.2-alpha"
+		"automattic/jetpack-connection": "^9.9.2-alpha",
+		"automattic/jetpack-ip": "^0.7.0"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -31,7 +32,7 @@
 	"extra": {
 		"autotagger": true,
 		"branch-alias": {
-			"dev-trunk": "0.4.x-dev"
+			"dev-trunk": "0.5.x-dev"
 		},
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-comments/compare/v${old}...v${new}"

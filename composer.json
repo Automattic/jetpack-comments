@@ -5,11 +5,15 @@
 	"license": "GPL-2.0-or-later",
 	"require": {
 		"php": ">=7.4",
-		"automattic/jetpack-assets": "^5.0.16",
+		"automattic/jetpack-assets": "^5.0.17-alpha",
 		"automattic/jetpack-image-cdn": "^0.8.4-alpha",
 		"automattic/jetpack-connection": "^9.16.0-alpha",
 		"automattic/jetpack-ip": "^0.7.1",
 		"automattic/jetpack-status": "^7.1.1"
+	},
+	"require-dev": {
+		"yoast/phpunit-polyfills": "^4.0.0",
+		"automattic/phpunit-select-config": "^1.0.12"
 	},
 	"suggest": {
 		"automattic/jetpack-autoloader": "Allow for better interoperability with other plugins that use this package."
@@ -26,6 +30,15 @@
 		"watch": [
 			"Composer\\Config::disableProcessTimeout",
 			"pnpm run watch"
+		],
+		"phpunit": [
+			"phpunit-select-config phpunit.#.xml.dist --colors=always"
+		],
+		"test-php": [
+			"@composer phpunit"
+		],
+		"test-php-coverage": [
+			"php -dpcov.directory=. ./vendor/bin/phpunit-select-config phpunit.#.xml.dist --coverage-php \"$COVERAGE_DIR/php.cov\""
 		]
 	},
 	"minimum-stability": "dev",

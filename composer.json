@@ -8,7 +8,7 @@
 		"automattic/jetpack-assets": "^5.0.19",
 		"automattic/jetpack-image-cdn": "^0.8.5",
 		"automattic/jetpack-connection": "^9.18.0-alpha",
-		"automattic/jetpack-ip": "^0.7.1",
+		"automattic/jetpack-ip": "^0.8.0-alpha",
 		"automattic/jetpack-status": "^7.1.2-alpha"
 	},
 	"require-dev": {
